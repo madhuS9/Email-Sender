@@ -1,0 +1,17 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "Backend for email sender app",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@sendgrid/mail": "^7.7.0",
+        "body-parser": "^1.20.3",
+        "dotenv": "^10.0.0",
+        "express": "^4.21.1",
+        "mongoose": "^6.13.4",
+        "nodemailer": "^6.9.16"
+    }
+}
